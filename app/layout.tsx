@@ -2,6 +2,7 @@
 import "@/app/globals.css";
 import { BottomNav } from "@/components/bottom-nav";
 import { AppProviders } from "@/providers/app-providers";
+import { APP_DESCRIPTION, APP_NAME, APP_URL, APP_ID, TALENT_VERIFICATION } from "@/lib/app-constants";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -17,10 +18,20 @@ export default function RootLayout({
   return (
     <html lang="zh-CN">
       <head>
-        <meta name="base:app_id" content="69c63965638fc70642e549cd" />
-        <meta name="talentapp:project_verification" content="841b5a0971bc3ce4408043e42d52e63e562b7e3e13074e8f9c7159d800a575c4167df4e5cb39ebecd78a24ec8b5dff09f33b9fb2d7bd66be54f6b5808c0bdcd8" />
-        <title>bookmark-box</title>
-        <meta name="description" content="链上收藏 / Bookmark" />
+        <meta name="base:app_id" content={APP_ID} />
+        <meta name="talentapp:project_verification" content={TALENT_VERIFICATION} />
+        <title>{APP_NAME}</title>
+        <meta name="description" content={APP_DESCRIPTION} />
+        <link rel="canonical" href={APP_URL} />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={APP_NAME} />
+        <meta property="og:description" content={APP_DESCRIPTION} />
+        <meta property="og:url" content={APP_URL} />
+        <meta property="og:image" content={`${APP_URL}/icon.svg`} />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content={APP_NAME} />
+        <meta name="twitter:description" content={APP_DESCRIPTION} />
+        <meta name="twitter:image" content={`${APP_URL}/icon.svg`} />
       </head>
       <body>
         <AppProviders>
@@ -35,4 +46,3 @@ export default function RootLayout({
     </html>
   );
 }
-
