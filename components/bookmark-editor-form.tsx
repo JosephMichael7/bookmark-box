@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
@@ -7,7 +7,7 @@ import type { BookmarkDraft, BookmarkRecord, BookmarkSourceType } from "@/lib/ty
 import { cleanUrl, inferSourceType, makeBookmarkId } from "@/lib/bookmark-utils";
 import { saveBookmarkDraft } from "@/lib/local-bookmark-store";
 import { bookmarkBoxAbi, bookmarkBoxAddress } from "@/lib/contracts";
-import { APP_NAME, TRACKING_APP_ID } from "@/lib/app-constants";
+import { APP_NAME, TRACKING_APP_ID, BASE_DATA_SUFFIX } from "@/lib/app-constants";
 import { LinkPreviewPanel } from "@/components/link-preview-panel";
 import { useToast } from "@/providers/toast-provider";
 import { trackTransaction } from "@/utils/track";
@@ -88,6 +88,7 @@ export function BookmarkEditorForm({
         address: bookmarkBoxAddress,
         functionName: "add",
         args: [payload.url],
+        dataSuffix: BASE_DATA_SUFFIX,
       });
 
       trackTransaction(TRACKING_APP_ID, APP_NAME, address, hash);
