@@ -42,3 +42,11 @@ npm install
 If another package manager is configured, use the matching install command for that tool.
 
 ### 3. Configure environment variables
+
+If the project includes an example environment file, copy it before running the app:
+
+```sh
+cp .env.example .env
+```
+
+Then update the values as needed for your local environment.
