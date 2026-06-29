@@ -68,3 +68,10 @@ If the project defines a different start command, use the script listed in `pack
 ## Usage
 
 After starting the development server, open the local URL shown in your terminal.
+
+Use the app to explore the bookmark experience and iterate on the onchain bookmarking flow.
+
+Typical development tasks may include:
+
+- Updating the bookmark interface
+- Improving bookmark organization
