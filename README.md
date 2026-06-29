@@ -88,3 +88,10 @@ When working in the repository, look for common files such as:
 - `package.json` for scripts and dependencies
 - Source directories for application code
 - Configuration files for framework, build, or styling tools
+- Environment examples, if provided
+
+## Development Notes
+
+Keep changes focused and easy to review.
+
+Prefer clear naming for bookmark-related components, routes, and helpers.
