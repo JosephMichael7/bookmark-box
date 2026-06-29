@@ -37,3 +37,8 @@ For example, if the project uses npm:
 
 ```sh
 npm install
+```
+
+If another package manager is configured, use the matching install command for that tool.
+
+### 3. Configure environment variables
