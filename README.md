@@ -121,3 +121,9 @@ Suggested workflow:
 2. Make a small, clear change.
 3. Test the project locally.
 4. Open a pull request with a concise description.
+
+## License
+
+No license information is included in the original project description.
+
+If a license is added later, update this section to reflect it.
