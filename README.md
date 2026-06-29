@@ -108,3 +108,9 @@ Before deploying, confirm that:
 
 - The project builds successfully
 - Required environment values are configured
+- The Mini App behavior works as expected
+- Bookmark flows have been tested in the target environment
+
+## Contributing
+
+Contributions should keep the project focused on the core goal: a Base Mini App for onchain bookmarks.
