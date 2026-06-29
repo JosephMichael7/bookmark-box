@@ -11,3 +11,9 @@ The project is intended to provide a clean starting point for building a bookmar
 Repository: <https://github.com/JosephMichael7/bookmark-box.git>
 
 ## Features
+
+- Base Mini App project identity
+- Bookmark-focused user experience
+- Onchain bookmark concept
+- Simple project structure for continued development
+- Suitable foundation for experimenting with bookmark storage and discovery flows
