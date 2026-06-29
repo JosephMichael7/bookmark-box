@@ -101,3 +101,10 @@ Document any new setup steps when adding required configuration.
 Avoid committing local environment files or generated build output unless the project explicitly requires them.
 
 ## Deployment
+
+Deployment depends on the framework and hosting setup used by the project.
+
+Before deploying, confirm that:
+
+- The project builds successfully
+- Required environment values are configured
