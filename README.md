@@ -23,3 +23,10 @@ Repository: <https://github.com/JosephMichael7/bookmark-box.git>
 Follow these steps to set up the project locally.
 
 ### 1. Clone the repository
+
+```sh
+git clone https://github.com/JosephMichael7/bookmark-box.git
+cd bookmark-box
+```
+
+### 2. Install dependencies
