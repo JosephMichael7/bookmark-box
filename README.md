@@ -56,3 +56,9 @@ If no environment file is required, you can skip this step.
 ### 4. Run the project
 
 Check the available scripts in `package.json`.
+
+Common development command:
+
+```sh
+npm run dev
+```
