@@ -30,3 +30,10 @@ cd bookmark-box
 ```
 
 ### 2. Install dependencies
+
+Use the package manager indicated by the files in the repository.
+
+For example, if the project uses npm:
+
+```sh
+npm install
