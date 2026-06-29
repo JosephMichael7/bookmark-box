@@ -95,3 +95,9 @@ When working in the repository, look for common files such as:
 Keep changes focused and easy to review.
 
 Prefer clear naming for bookmark-related components, routes, and helpers.
+
+Document any new setup steps when adding required configuration.
+
+Avoid committing local environment files or generated build output unless the project explicitly requires them.
+
+## Deployment
