@@ -82,3 +82,9 @@ Typical development tasks may include:
 ## Project Structure
 
 The exact structure may change as the project evolves.
+
+When working in the repository, look for common files such as:
+
+- `package.json` for scripts and dependencies
+- Source directories for application code
+- Configuration files for framework, build, or styling tools
