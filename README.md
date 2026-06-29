@@ -17,3 +17,9 @@ Repository: <https://github.com/JosephMichael7/bookmark-box.git>
 - Onchain bookmark concept
 - Simple project structure for continued development
 - Suitable foundation for experimenting with bookmark storage and discovery flows
+
+## Getting Started
+
+Follow these steps to set up the project locally.
+
+### 1. Clone the repository
