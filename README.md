@@ -75,3 +75,10 @@ Typical development tasks may include:
 
 - Updating the bookmark interface
 - Improving bookmark organization
+- Connecting the app to the intended onchain data flow
+- Refining the Mini App experience
+- Testing changes locally before deployment
+
+## Project Structure
+
+The exact structure may change as the project evolves.
