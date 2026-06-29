@@ -50,3 +50,9 @@ cp .env.example .env
 ```
 
 Then update the values as needed for your local environment.
+
+If no environment file is required, you can skip this step.
+
+### 4. Run the project
+
+Check the available scripts in `package.json`.
