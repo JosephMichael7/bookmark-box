@@ -1,3 +1,5 @@
-﻿# bookmark-box
+# bookmark-box
 
-Base Mini App for onchain bookmarks.
+A Base Mini App for onchain bookmarks.
+
+## Overview
