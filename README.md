@@ -62,3 +62,9 @@ Common development command:
 ```sh
 npm run dev
 ```
+
+If the project defines a different start command, use the script listed in `package.json`.
+
+## Usage
+
+After starting the development server, open the local URL shown in your terminal.
