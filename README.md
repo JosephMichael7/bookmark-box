@@ -114,3 +114,10 @@ Before deploying, confirm that:
 ## Contributing
 
 Contributions should keep the project focused on the core goal: a Base Mini App for onchain bookmarks.
+
+Suggested workflow:
+
+1. Create a focused branch.
+2. Make a small, clear change.
+3. Test the project locally.
+4. Open a pull request with a concise description.
